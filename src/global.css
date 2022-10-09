@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'League Spartan', sans-serif;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  padding: 2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #111;
+  margin-top: 40px;
+}
+
+footer img {
+  width: 120px;
+}
+
+footer a {
+  color: currentColor;
+}
